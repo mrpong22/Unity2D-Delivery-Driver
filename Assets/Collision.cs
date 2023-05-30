@@ -8,4 +8,9 @@ public class Collision : MonoBehaviour
     {
         Debug.Log("Do not destroy the car");
     }
+
+    void OnTriggerEnter2D(Collider2D collision)
+    {
+        Debug.Log("Passed through the line");    
+    }
 }
